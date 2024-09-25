@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <style>
+        body {
+            background-color: #ffe6e6; /* Light pink background */
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        #valentine-container {
+            background-color: #ff9999; /* Soft red */
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 48px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 24px;
+            display: none; /* Hide the message initially */
+        }
+
+        button {
+            background-color: #ff4d4d; /* Red button */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff1a1a; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div id="valentine-container">
+    <h1>Sucker My Dicker</h1>
+    <button id="click-here-button">Click Here</button>
+    <p id="sweet-message">r u gay</p>
+</div>
+
+<script>
+    document.getElementById('click-here-button').onclick = function() {
+        document.getElementById('sweet-message').style.display = 'block';
+        this.style.display = 'none'; // Hide the button after clicking
+    };
+</script>
+
+</body>
+</html>
+
